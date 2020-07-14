@@ -1,0 +1,349 @@
+body {
+  background-image: url('./pokemonWallpaper.jpg');
+}
+
+#title{
+  text-align: center;
+}
+
+#mainApp{
+  width: 50%;
+  min-width: 100vh;
+  margin: 0 auto;
+}
+
+#quote{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+}
+
+.container{
+  display: flex;
+  margin: 0 auto;
+}
+.leftSide{
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(to right,#DC0A2D,#DC0A2D, tomato,#DC0A2D,#89061C 90%);
+  margin-top: 5vh;
+  margin-bottom:5vh;
+  border-radius: 5vh 2vh 1vh 5vh;
+  box-shadow: -1vh 1vh 0vh 1vh #89061C;
+  height: 70vh;
+  width: 50vh;
+  z-index: 1;
+}
+.leftCurve{
+  height: 12vh;
+  width: 12vh;
+  background: linear-gradient(to bottom,white 4%,#DC0A2D 12%,#DC0A2D);
+  border-radius: 5vh 0% 5% 0%;
+  box-shadow: 0vh .5vh 0vh 0vh rgba(0, 0, 0, .5);
+  margin-bottom: 3vh;
+}
+
+.blueLight{
+  height: 6vh;
+  width: 6vh;
+  border: .5vh solid white;
+  border-radius: 10vh;
+  position: absolute;
+  top: 3vh;
+  left: 3vh;
+  background: lightblue;
+  box-shadow: -.5vh .5vh 0vh 0vh darkred;
+  z-index: 5;
+}
+.blueLightReflect{
+  height: 2vh;
+  width: 2vh;
+  margin-left: 3.5vh;
+  margin-top:.5vh;
+  border-radius: 60vh;
+  background: linear-gradient(white, transparent);
+}
+.redLight{
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 10vh;
+  position: absolute;
+  box-shadow: 0vh 0vh .5vh .4vh tomato;
+  top: 2.5vh;
+  left: 13.5vh;
+  z-index: 5;
+  background: linear-gradient(white,tomato,darkred);
+}
+.yellowLight{
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 10vh;
+  position: absolute;
+  box-shadow: 0vh 0vh .5vh .3vh white;
+  top: 2.5vh;
+  left: 18vh;
+  z-index: 5;
+  background: linear-gradient(white,orange,#A08C0F);
+}
+.greenLight{
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 10vh;
+  position: absolute;
+  top: 2.5vh;
+  left: 22.5vh;
+  box-shadow: 0vh 0vh .5vh .3vh lightgreen;
+  background: linear-gradient(white,green,#397F45);
+  z-index:2;
+}
+.pokeName{
+  margin-left: 15vh;
+  margin-top: -7vh;;
+  color: black;
+  font-size: 4.5vh;
+}
+.rightCurve{
+  position: absolute;
+  top:0;
+  right:0;
+  height: 6vh;
+  width: 38vh;
+  background: linear-gradient(to bottom,white 10%,#DC0A2D 30%);
+  z-index: 1;
+  box-shadow: 0vh .5vh 0vh 0vh rgba(0, 0, 0, .5)
+}
+
+.frameScreen{
+  margin: auto;
+  background: linear-gradient(to right,lightgray 20%, white 50%,lightgray,gray 100%);
+  height: 38vh;
+  border-radius: 5% 5% 5% 20%;
+  width: 40vh;
+}
+.screen{
+  position: relative;
+  margin: 0 auto;
+  border: .3vh solid GRAY;
+  background: white;
+  height: 28vh;
+  width:35vh;
+  border-radius: 2vh;
+  z-index:1;
+  img {
+    max-width: 100%;
+    max-height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+}
+.redDot{
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 100vh;
+  background: tomato;
+  border: .2vh solid gray;
+  position: absolute;
+  bottom: 20vh;
+  left: 10vh;
+}
+
+.pokeNumber {
+  font-size: 3vh;
+  position: absolute;
+  left: 17vh;
+  bottom: 16vh;
+}
+.submitButton{
+  height: 8.5vh;
+  width: 8.5vh;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 6vh;
+  right: 7vh;
+  background: darkgray;
+  border: .2vh solid gray;
+  z-index: 3;
+  color: white;
+  outline: none;
+}
+
+.searchBox {
+position: absolute;
+bottom: 10vh;
+left: 8vh;
+z-index: 3;
+}
+
+// .pokeBall{
+//   margin-top: 5vh;
+//   margin-left: auto;
+//   margin-right: auto;
+//   display: block;
+//   background-color: rgba(0, 0, 0, 0.1);
+//   border-radius: 100%;
+//   height: 18vh;
+//   width: 18vh;
+// }
+// .pokeBall:after{
+//   content:"";
+//   margin-top: 6vh;
+//   margin-left: auto;
+//   margin-right: auto;
+//   display: block;
+//   background-color: white;
+//   border-radius: 100%;
+//   height: 6vh;
+//   width: 6vh;
+// }
+// .pokeBall:before{
+//   content:"";
+//   display: inline-block;
+//   position:absolute;
+//   margin-top: 8vh;
+//   background-color: white;
+//   height: 2vh;
+//   width: 18vh;
+// }
+
+.column{
+  display: inline-block;
+  position: absolute;
+  bottom:0vh;
+  right: 0vh;
+  background: linear-gradient(to right,#89061C, #DC0A2D , tomato,#DC0A2D,#89061C);
+  height: 70vh;
+  width: 4vh;
+}
+
+.rightSide{
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(to right,#89061C 1%,#DC0A2D 33%, tomato 60%,tomato 70%,#DC0A2D 85%);
+  margin-top: 11vh;
+  margin-left: 1vh;
+  border-radius: 0vh 0vh 5vh 0vh;
+  box-shadow: -2vh 1vh 0vh 1vh #89061C;
+  height: 63.5vh;
+  width: 43vh;
+  z-index: 0;
+}
+.rightTopCorner{
+ width: 10vh;
+ height: 6vh;
+ background-color: white;
+ position: absolute;
+ left: 76.5%;
+}
+
+.description{
+  display: inline-block;
+  position: absolute;
+  top: 6vh;
+  right: 3vh;
+  background: white;
+  height: 18vh;
+  text-align: left;
+  width: 38vh;
+  font-size: 1vh;
+  border: 0.5vh solid lightgray;
+  border-radius: .5vh;
+  z-index:1;  
+  overflow: scroll;
+  p{
+    margin-top: 0.5vh;
+    font-size: 2vh;
+  }
+}
+
+.height{
+  display: inline-block;
+  position: absolute;
+  top: 27vh;
+  left: 10vh;
+  background: white;
+  height: 8vh;
+  text-align: left;
+  width: 8vh;
+  font-size: 0.9vh;
+  z-index:1;  
+  border: 0.5vh solid lightgray;
+  border-radius: .5vh;
+  text-align: center;
+  p{
+    margin-top: 0.5vh; 
+    font-size: 2vh;
+    font-weight: bold;
+  }
+}
+
+.weight{
+  display: inline-block;
+  position: absolute;
+  top: 27vh;
+  left: 22vh;
+  background: white;
+  border-radius: .5vh;
+  height: 8vh;
+  text-align: left;
+  width: 8vh;
+  font-size: 0.9vh;
+  border: 0.5vh solid lightgray;
+  text-align: center;
+  z-index:1;  
+  p{
+    margin-top: 0.5vh; 
+    font-size: 2vh;
+    font-weight: bold;
+  }
+}
+
+.types{
+  display: inline-block;
+  position: absolute;
+  top: 38vh;
+  right: 4.5vh;
+  background: white;
+  height: 4vh;
+  text-align: left;
+  width: 35vh;
+  font-size: 1vh;
+  z-index:1;  
+  border-radius: .5vh;
+  border: 0.5vh solid lightgray;
+  h1 {
+    text-align: center;
+  }
+}
+
+.evolution{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom:3vh;
+  right: 3vh;
+  background: white;
+  height: 14.5vh;
+  text-align: left;
+  width: 38vh;
+  font-size: 1vh;
+  border: 0.5vh solid lightgray;
+  border-radius: .5vh;
+  z-index:1;  
+}
+
+.pokeEvo{
+  margin-top: 1vh;
+  height: 9.5vh;
+  width: 10vh;
+  border: 0.2vh solid black;
+  img {
+    max-width: 100%;
+    max-height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
