@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76a380c7624370d1a18b1190df0014a5",
+    "revision": "60ca13355f103da665e1c37f53fef015",
     "url": "/Jimmei27/pokeDex/index.html"
   },
   {
-    "revision": "ebf3663945e7d6041d5b",
-    "url": "/Jimmei27/pokeDex/static/css/main.4e7bb2fa.chunk.css"
+    "revision": "4045e509cabc064646de",
+    "url": "/Jimmei27/pokeDex/static/css/main.e50c3b9c.chunk.css"
   },
   {
     "revision": "4d31fb586810e79de87f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Jimmei27/pokeDex/static/js/2.07f6c987.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebf3663945e7d6041d5b",
-    "url": "/Jimmei27/pokeDex/static/js/main.b9ca0e4a.chunk.js"
+    "revision": "4045e509cabc064646de",
+    "url": "/Jimmei27/pokeDex/static/js/main.6818fedf.chunk.js"
   },
   {
     "revision": "d98d54be72a66af72052",
