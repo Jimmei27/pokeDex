@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Jimmei27/pokeDex/static/css/main.4e7bb2fa.chunk.css",
+    "main.js": "/Jimmei27/pokeDex/static/js/main.b9ca0e4a.chunk.js",
+    "main.js.map": "/Jimmei27/pokeDex/static/js/main.b9ca0e4a.chunk.js.map",
+    "runtime-main.js": "/Jimmei27/pokeDex/static/js/runtime-main.faca8e8d.js",
+    "runtime-main.js.map": "/Jimmei27/pokeDex/static/js/runtime-main.faca8e8d.js.map",
+    "static/js/2.07f6c987.chunk.js": "/Jimmei27/pokeDex/static/js/2.07f6c987.chunk.js",
+    "static/js/2.07f6c987.chunk.js.map": "/Jimmei27/pokeDex/static/js/2.07f6c987.chunk.js.map",
+    "index.html": "/Jimmei27/pokeDex/index.html",
+    "precache-manifest.3486c597abaf97d5a8f932808db0deb4.js": "/Jimmei27/pokeDex/precache-manifest.3486c597abaf97d5a8f932808db0deb4.js",
+    "service-worker.js": "/Jimmei27/pokeDex/service-worker.js",
+    "static/css/main.4e7bb2fa.chunk.css.map": "/Jimmei27/pokeDex/static/css/main.4e7bb2fa.chunk.css.map",
+    "static/js/2.07f6c987.chunk.js.LICENSE.txt": "/Jimmei27/pokeDex/static/js/2.07f6c987.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/Jimmei27/pokeDex/static/media/pokemonWallpaper.f5349d9b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faca8e8d.js",
+    "static/js/2.07f6c987.chunk.js",
+    "static/css/main.4e7bb2fa.chunk.css",
+    "static/js/main.b9ca0e4a.chunk.js"
+  ]
+}
